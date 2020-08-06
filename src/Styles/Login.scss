@@ -1,0 +1,18 @@
+.login-form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid #7c7c7c;
+        padding: 20px 50px 10px 50px;
+        border-radius: 2%;
+}
+
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
