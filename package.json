@@ -1,17 +1,28 @@
 {
-  "name": "nf",
+  "name": "emailclient",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "babel-eslint": "^10.1.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "config": "^1.28.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "json-server": "^0.16.1",
+    "jsonwebtoken": "^8.1.0",
+    "random-token": "0.0.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "mock-server": "json-server server/mock/index.json --middlewares server/middlewares/token.js --port 8082",
+    "node-server": "node server/index.js",
+    "start": "concurrently \"npm run node-server\" \"npm run mock-server\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
