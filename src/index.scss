@@ -12,3 +12,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ant-list-items {
+  position: absolute;
+  top: 40px;
+}
+
+.ant-card {
+  position: absolute;
+  top: 80px;
+}
+
+.ant-card-body {
+  p {
+    width: 95%;
+  }
+}
+
+span .ant-avatar-string {
+      padding: 0 !important;
+    }
+
+.ant-list-item:hover {
+  background-color: #eff6fc;
+  cursor: pointer;
+}
+
+.ant-list-item:active {
+  background-color: #eff6fc;
+}
+

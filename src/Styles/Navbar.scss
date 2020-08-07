@@ -8,4 +8,19 @@
     font-size: 22px;
     font-weight: 500;
     background-color: #f4f4f4;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        left: 20%;
+    }
+
+    a {
+        color: #18a1fa;
+        font-weight: 600;
+        font-size: 13px;
+        padding-right: 20px;
+    }
 }

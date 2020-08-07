@@ -1,0 +1,37 @@
+
+.ant-modal-body {
+    padding: 0;
+  }
+
+.input-container {
+
+  padding: 0 15px;
+
+    input, textarea {
+      width: 100%;
+      border: none;
+      padding-top: 20px;
+      outline: none;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding: 10px 0;
+
+      button {
+        background-color: #177ddc;
+        color: #fff;
+        border: none;
+        width: 80px;
+        height: 35px;
+        border: 4px;
+      }
+    }
+  
+}
+
+.ant-modal-footer {
+  display: none;
+}

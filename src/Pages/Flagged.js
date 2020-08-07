@@ -8,7 +8,7 @@ import Cards from '../Components/Cards'
 
 const { Content } = Layout;
 
-const Inbox = () => {
+const Flagged = () => {
 
     const token = localStorage.getItem("token")
 
@@ -28,7 +28,7 @@ const Inbox = () => {
     }
 
     useEffect(() => {
-        axios.get('/folders/1/emails', {
+        axios.get('/folders/3/emails', {
             headers: {
                 Authorization: 'Bearer ' + token
             }
@@ -38,7 +38,7 @@ const Inbox = () => {
             console.log(err)
         })
 
-        axios.get(`emails/3`, {
+        axios.get(`emails/2`, {
             headers: {
                 Authorization: 'Bearer ' + token
             }
@@ -58,12 +58,12 @@ const Inbox = () => {
                 <Layout style={{ minHeight: '100vh' }}>
 
                     <Layout className="site-layout" >
-                        <Sidebar defaultKey={'1'} />
+                        <Sidebar defaultKey={'4'} />
                         <Content style={{ padding: "0 5px", width: '40vw', height: '100vh', scrollbarWidth: 'none' }}>
                             <>
                                 <div className="nav-bar" style={{ backgroundColor: '#fff', position: 'fixed', zIndex: '160' }}>
                                     <div className="" >
-                                        <span style={{ fontSize: 16 }}>Inbox</span>
+                                        <span style={{ fontSize: 16 }}>Flagged</span>
                                     </div>
                                 </div>
                             </>
@@ -93,4 +93,4 @@ const Inbox = () => {
 
 }
 
-export default Inbox
+export default Flagged

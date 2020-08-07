@@ -16,20 +16,20 @@ const Login = () => {
                 setLoggedIn(true)
                 localStorage.setItem("token", response.data.token)
                 message
-                    .loading('Upload in progress..', 1)
-                    .then(() => message.success('Request successful', 1))
+                    .loading('Authenticating..', 0.1)
+                    .then(() => message.success('Authenticated', 1))
 
             }).catch(err => {
                 console.log(err)
                 message
-                    .loading('Action in progress..', 1)
-                    .then(() => message.error('Request Failed', 1))
+                    .loading('Authenticating..', 0.1)
+                    .then(() => message.error('Check Email or Password', 1))
             })
     };
 
 
     if (loggedIn) {
-        return <Redirect to="/" />
+        return <Redirect to="/inbox" />
     }
 
     return (
