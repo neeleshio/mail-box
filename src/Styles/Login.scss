@@ -1,6 +1,13 @@
+.login-form-container {
+    svg {
+        position: relative;
+        right: 12px;
+    }
+}
+
 .login-form {
         position: absolute;
-        top: 50%;
+        top: 35%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -11,7 +18,7 @@
 
 h1 {
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
