@@ -19,6 +19,7 @@ const Modals = (props) => {
                 Authorization: 'Bearer ' + token
             }
         }).then(response => {
+            console.log(response)
             setVisible(!visible)
             message
                 .loading('Sending..', 1)
