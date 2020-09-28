@@ -2,11 +2,11 @@
   <img src="https://raw.githubusercontent.com/neeleshio/Mail-Box/master/vrs(1).png" alt="mail-box" width="600">
 </h1>
 
-<h4 align="center">Responsive corona cases tracker webapp built with ReactJs.</h4>
+<h4 align="center">Email service web app built with ReactJs & NodeJs. You can send new email, check inbox, span & other folders.</h4>
 
 <div align="center">
-  <a href="https://coronatrackerindia.vercel.app/"><img src="https://img.shields.io/badge/host-vercel-success">
-  <a href="https://github.com/mathdroid/covid-19-api"><img src="https://img.shields.io/badge/API-mathdroid-blueviolet"><a/>
+  <img src="https://img.shields.io/badge/hosted-false-success">
+  <img src="https://img.shields.io/badge/server-local-blueviolet"><a/>
   <img src="https://img.shields.io/badge/contributions-welcome-orange.svg">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=RestAPI-CRUD-Friendly.visitor-badge">
