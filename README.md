@@ -12,8 +12,6 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=RestAPI-CRUD-Friendly.visitor-badge">
 </div>
 
-<hr/>
-
 ## Installation
 
 You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) & [npm](http://npmjs.com) installed on your computer.
@@ -24,10 +22,10 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/neeleshio/RestAPI-CRUD.git
+$ git clone https://github.com/neeleshio/Mail-Box.git
 
 # Go into the repository
-$ cd RestAPI-CRUD-Friendly
+$ cd Mail-Box
 
 # Install dependencies
 $ npm install
@@ -35,14 +33,6 @@ $ npm install
 # Run the server
 $ npm start
 ```
-
-## Tools :
-
-Use <a href="https://www.postman.com/"><img src="https://img.shields.io/badge/POSTMAN-orange"></a> for handling all the HTTP requests.
-
-## API documentation :
-
-The detailed API documentation with requests and responses snapshots is available here <a href="https://documenter.getpostman.com/view/10182345/T1LPE7h2?version=latest"><img src="https://img.shields.io/badge/API-documentation-blueviolet" ></a>
 
 ## Become a Contributor :
 
