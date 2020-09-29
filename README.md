@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/server-local-blueviolet"><a/>
   <img src="https://img.shields.io/badge/contributions-welcome-orange.svg">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=RestAPI-CRUD-Friendly.visitor-badge">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Mail-Box.visitor-badge">
 </div>
 
 ## Demo
