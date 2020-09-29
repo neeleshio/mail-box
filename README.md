@@ -12,6 +12,12 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=RestAPI-CRUD-Friendly.visitor-badge">
 </div>
 
+## Demo
+
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/neeleshio/Mail-Box/master/Sequence%20%231(1).gif" alt="demo" width="600">
+</h1>
+
 ## Installation
 
 You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) & [npm](http://npmjs.com) installed on your computer.
