@@ -5,7 +5,7 @@
 <h4 align="center">Email service web app built with ReactJs & NodeJs. You can send new email, check inbox, span & other folders.</h4>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/hosted-false-success">
+  <img src="https://img.shields.io/badge/hosted-false-red">
   <img src="https://img.shields.io/badge/server-local-blueviolet"><a/>
   <img src="https://img.shields.io/badge/contributions-welcome-orange.svg">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg">
@@ -42,7 +42,7 @@ $ npm start
 
 ## Become a Contributor :
 
-1. Clone the repo and create a new branch: $ git checkout https://github.com/neeleshio/RestAPI-CRUD.git
+1. Clone the repo and create a new branch: $ git checkout https://github.com/neeleshio/Mail-Box.git
 
 2. Make changes and test.
 
